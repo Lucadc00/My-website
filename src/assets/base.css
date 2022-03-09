@@ -1,7 +1,18 @@
+:root{
+  --main: #FF2687,
+  --secondary: #002687,
+}
+
 body{
   height: 100%;
   width: 100%;
   margin: 0px;
   padding: 0px;
-  
+  background-color: black;
+  font-family: 'Bitter', serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'M PLUS 2', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }

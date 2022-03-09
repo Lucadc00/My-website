@@ -4,12 +4,12 @@
           <div class="row my-header align-items-center">
               <div class="col-6">
                 <h1 class="block-effect" style="--td: 1.2s">
-                    <div class="block-reveal" style="--bc: #4040bf; --d: .1s">Luca</div>
-                    <div class="block-reveal" style="--bc: #bf4060; --d: .5s">De Cesare</div>
+                    <div class="block-reveal" style="--bc: #002687; --d: .1s">Luca</div>
+                    <div class="block-reveal" style="--bc: #FF2687; --d: .5s">De Cesare</div>
                 </h1>
               </div>
               <div class="col-6">
-                  <h2>My personal project</h2>
+                  <h5>Hi i'm Luca, and this web site contain some of the projects I've done <br> and some information about me!</h5>
               </div>
           </div>
       </div>
@@ -31,13 +31,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 
 /* other */
 .info {
@@ -87,7 +80,7 @@ p {
 /* animations */
 @keyframes revealBlock {
   100% {
-    color: white;
+    color: #FF2687;
   }
 }
 
@@ -125,7 +118,7 @@ p {
     height: 70vh;
 }
 .my-back{
-    background-color: #0f0f0f;
-    color: white;
+    background-color: black;
+    color: #FF2687;
 }
 </style>
