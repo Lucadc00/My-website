@@ -1,6 +1,6 @@
 <template>
 
-<footer id="dk-footer" class="dk-footer">
+<footer id="dk-footer" class="dk-footer mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-4">
@@ -307,6 +307,7 @@ p {
 
 .dk-footer-box-info {
   position: absolute;
+  width: 439px;
   top: -122px;
   background: #202020;
   padding: 40px;
