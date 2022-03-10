@@ -36,8 +36,7 @@
 export default {
     data(){
         return{
-            small: false,
-            value: window.devicePixelRatio,
+            
         }
     }
 
