@@ -1,8 +1,8 @@
 <template>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg my-background">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button @click="changeIcon" class="navbar-toggler my" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-chevron-circle-down transition" :class="{rotate : active}"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-around text-center" id="navbarSupportedContent">
                 <div class="col-4 fw-bold nav-item ">
@@ -36,7 +36,13 @@
 export default {
     data(){
         return{
-            
+            active: false,
+        }
+    },
+    methods: {
+        changeIcon(){
+            this.active = !this.active
+            console.log(this.active);
         }
     }
 
@@ -44,7 +50,21 @@ export default {
 </script>
 
 <style>
-
+.transition{
+    transition: 0.7s;
+}
+.rotate{
+    transform: rotate(180deg);
+    transition: 0.7s;
+}
+button.my{
+    border: none !important;
+    box-shadow: none !important;
+    color: #FF2687 !important;
+}
+button.my:active{
+    box-shadow: none !important;
+}
 .my-background{
     background-color: black !important;
 }

@@ -188,8 +188,8 @@
         <!-- End Copyright -->
         <!-- Back to top -->
         <div id="back-to-top" class="back-to-top">
-            <button class="btn btn-dark" title="Back to Top" style="display: block;">
-                <i class="fa fa-angle-up"></i>
+            <button @click="topFn"  class="btn btn-dark my" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up" ></i>
             </button>
         </div>
         <!-- End Back to top -->
@@ -201,7 +201,17 @@
 
 <script>
 export default {
-
+    data(){
+        return{
+            
+        }
+    },
+    methods:{
+        topFn(){
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    }
 }
 </script>
 
