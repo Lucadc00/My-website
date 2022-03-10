@@ -129,7 +129,7 @@
                                 </div>
                                 <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
                                 Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
-                                <form action="#">
+                                <!-- <form action="#">
                                     <div class="form-row">
                                         <div class="col dk-footer-form">
                                             <input type="email" class="form-control" placeholder="Email Address">
@@ -138,7 +138,7 @@
                                             </button>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
                                 <!-- End form -->
                             </div>
                             <!-- End footer widget -->

@@ -5,7 +5,8 @@ import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
 
 createApp(App).mount('#app')
-/* 
+
 App.component('Header', Header)
 App.component('Navbar', Navbar)
-App.component('Footer', Footer) */
+App.component('Footer', Footer)
+
