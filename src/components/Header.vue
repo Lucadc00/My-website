@@ -9,7 +9,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                  <h5>Hi i'm Luca, and this web site contain some of the projects I've done <br> and some information about me!</h5>
+                  <h2>Full-stack web developer fond of vue </h2>
               </div>
           </div>
       </div>

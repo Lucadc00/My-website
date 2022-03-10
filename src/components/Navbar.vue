@@ -5,13 +5,15 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-around text-center" id="navbarSupportedContent">
-                <div class="col-4 fw-bold ">
+                <div class="col-4 fw-bold nav-item ">
                     <a class="nav-link active my-color" aria-current="page" href="#">Home</a>
                 </div>
-                <div class="col-4 fw-bold">
+                <hr class="m-0 my-color">
+                <div class="col-4 fw-bold nav-item">
                     <a class="nav-link active my-color" aria-current="page" href="#">Home</a>
                 </div>
-                <div class="col-4 fw-bold">
+                <hr class="m-0 my-color">
+                <div class="col-4 fw-bold nav-item">
                     <a class="nav-link my-color" href="#">Link</a>
                 </div>
                 <!-- <ul class="navbar-nav mb-2 mb-lg-0">
@@ -32,6 +34,12 @@
 
 <script>
 export default {
+    data(){
+        return{
+            small: false,
+            value: window.devicePixelRatio,
+        }
+    }
 
 }
 </script>
@@ -40,6 +48,9 @@ export default {
 
 .my-background{
     background-color: black !important;
+}
+hr.my-color{
+    color: #FF2687 !important;
 }
 .my-color{
    color: #FF2687 !important;
