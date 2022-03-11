@@ -2,7 +2,7 @@
  <section id="about">
      <h1 class="text-center about-title py-3">About me</h1>
      <div class="section_our_solution py-5">
-        <div class="row">
+        <div class="row width">
             <div class="our_solution_category">
                 <div class="solution_cards_box">
                 <div class="solution_card">
@@ -81,9 +81,11 @@ export default {
 </script>
 
 <style>
+div.row{
+    width: 100%;
+}
 h1.about-title{
-    margin-left: 400px;
-    margin-right: 400px;
+    
     background-color: #FF2687;
     background-image: linear-gradient(270deg, #FF2687, #002687);
     background-size: 90%;

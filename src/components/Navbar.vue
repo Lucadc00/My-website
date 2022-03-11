@@ -1,20 +1,20 @@
 <template>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg my-background">
+    <nav id="nav" class="navbar navbar-dark bg-dark navbar-expand-lg my-background">
         <div class="container-fluid">
             <button @click="changeIcon" class="navbar-toggler my" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-chevron-circle-down transition" :class="{rotate : active}"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-around text-center" id="navbarSupportedContent">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link active my-color mx" aria-current="page" href="#projects">Projects</a>
+                    <a class="nav-link active my-color mx text-start" aria-current="page" href="#projects">Projects</a>
                 </div>
                 <hr class="m-0 color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link active my-color mx" aria-current="page" href="#about">About me</a>
+                    <a class="nav-link active my-color mx text-start" aria-current="page" href="#about">About me</a>
                 </div>
                 <hr class="m-0 color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link my-color mx" href="#dk-footer">Contact me</a>
+                    <a class="nav-link my-color mx wdt text-start" href="#dk-footer">Contact me</a>
                 </div>
                 <!-- <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -50,6 +50,9 @@ export default {
 </script>
 
 <style>
+a.wdt{
+    min-width: 150px;
+}
 a.mx{
     margin-left: 0px;
     margin-right: 0px;

@@ -105,8 +105,7 @@ export default {
 <style>
 
 .proje-title{
-    margin-left: 400px;
-    margin-right: 400px;
+    
     background-color: #FF2687;
     background-image: linear-gradient(270deg, #FF2687, #002687);
     background-size: 90%;

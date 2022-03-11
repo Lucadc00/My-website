@@ -144,7 +144,7 @@
         <!-- End Copyright -->
         <!-- Back to top -->
         <div id="back-to-top" class="back-to-top">
-            <button @click="topFn"  class="btn btn-dark my my-back" title="Back to Top" style="display: block;">
+            <button @click="topFn"  class="btn btn-dark my my-back" title="Back to Top" style="display: inline-block;">
                 <i class="fa fa-angle-up" ></i>
             </button>
         </div>
@@ -172,7 +172,6 @@ export default {
 </script>
 
 <style>
- body { color: #ccc }
 
  .my-back:hover{
      background-color:#2e2e2e !important;
