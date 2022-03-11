@@ -3,50 +3,6 @@
 <footer id="dk-footer" class="dk-footer mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-lg-4">
-                    <div class="dk-footer-box-info">
-                        <a href="index.html" class="footer-logo">
-                        </a>
-                        <p class="footer-info-text text-white">
-                           Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
-                        </p>
-                        <div class="footer-social-link">
-                            <h3>Follow us</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- End Social link -->
-                    </div>
-                    <!-- End Footer info -->
-                    <div class="footer-awarad">
-                        <p>Best Design Company 2019</p>
-                    </div>
-                </div>
                 <!-- End Col -->
                 <div class="col-md-12 col-lg-8">
                     <div class="row">

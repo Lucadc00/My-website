@@ -1,6 +1,6 @@
 <template>
-<h1 class="proje-title text-center py-3 my-0">My projects</h1>
-<div class="container py-5 ">
+<h1 class="proje-title text-center py-3 my-0 ">My projects</h1>
+<div class="container py-5 " id="projects">
 	<div class="row">
 		<div class="col-md-4">
 			<div class="profile-card-4 text-center"><img src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive">
@@ -119,11 +119,7 @@ export default {
 .proje-title:hover{
     background-size: 80%;
 }
-.container-fluid,
-.container {
-	max-width: 1200px;
-    margin-bottom: 100px;
-}
+
 
 .card-container {
 	padding: 100px 0px;

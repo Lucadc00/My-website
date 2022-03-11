@@ -6,15 +6,15 @@
             </button>
             <div class="collapse navbar-collapse justify-content-around text-center" id="navbarSupportedContent">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link active my-color mx" aria-current="page" href="#dk-footer">Footer</a>
+                    <a class="nav-link active my-color mx" aria-current="page" href="#projects">Projects</a>
                 </div>
-                <hr class="m-0 my-color">
+                <hr class="m-0 color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link active my-color mx" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active my-color mx" aria-current="page" href="#about">About me</a>
                 </div>
-                <hr class="m-0 my-color">
+                <hr class="m-0 color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link my-color mx" href="#">Link</a>
+                    <a class="nav-link my-color mx" href="#dk-footer">Contact me</a>
                 </div>
                 <!-- <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -71,10 +71,10 @@ button.my{
 button.my:active{
     box-shadow: none !important;
 }
-.my-background{
+nav.my-background{
     background-color: black !important;
 }
-hr.my-color{
+hr.color{
     color: #FF2687 !important;
 }
 .my-color{
