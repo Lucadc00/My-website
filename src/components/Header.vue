@@ -116,6 +116,8 @@ p {
 }
 .my-header{
     height: 70vh;
+    width: 100%;
+    margin: 0px !important;
 }
 .my-back{
     background-color: black;

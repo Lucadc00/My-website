@@ -5,16 +5,16 @@
             <i class="fas fa-chevron-circle-down transition" :class="{rotate : active}"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-around text-center" id="navbarSupportedContent">
-                <div class="col-4 fw-bold nav-item ">
-                    <a class="nav-link active my-color" aria-current="page" href="#">Home</a>
+                <div class="col-4 fw-bold nav-item">
+                    <a class="nav-link active my-color mx" aria-current="page" href="#dk-footer">Footer</a>
                 </div>
                 <hr class="m-0 my-color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link active my-color" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active my-color mx" aria-current="page" href="#">Home</a>
                 </div>
                 <hr class="m-0 my-color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link my-color" href="#">Link</a>
+                    <a class="nav-link my-color mx" href="#">Link</a>
                 </div>
                 <!-- <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -50,6 +50,12 @@ export default {
 </script>
 
 <style>
+a.mx{
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
 .transition{
     transition: 0.7s;
 }
@@ -72,9 +78,22 @@ hr.my-color{
     color: #FF2687 !important;
 }
 .my-color{
-   color: #FF2687 !important;
+   background-color: #FF2687;
+    background-image: linear-gradient(45deg, #FF2687, #002687);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    transition: all 0.7s;
 }
 .my-color:hover{
-    color: #ff2688a9 !important;
+    background-size: 150%;
+}
+@media screen and (min-width: 992px) {
+  a.mx{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 }
 </style>
