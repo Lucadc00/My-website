@@ -4,144 +4,113 @@
         <div class="container">
             <div class="row">
                 <!-- End Col -->
-                <div class="col-md-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="contact-us">
-                                <div class="contact-icon">
-                                    <i class="fa fa-map-o" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>Jaipur India</h3>
-                                    <p>5353 Road Avenue</p>
-                                </div>
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                        <div class="col-md-6">
-                            <div class="contact-us contact-us-last">
-                                <div class="contact-icon">
-                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>95 711 9 5353</h3>
-                                    <p>Give us a call</p>
-                                </div>
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Contact Row -->
-                    <div class="row">
-                        <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget footer-left-widget">
-                                <div class="section-heading">
-                                    <h3>Useful Links</h3>
-                                    <span class="animate-border border-black"></span>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <a href="#">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Our Team</a>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>
-                                        <a href="#">Contact us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Testimonials</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Faq</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- End Footer Widget -->
-                        </div>
-                        <!-- End col -->
-                        <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget">
-                                <div class="section-heading">
-                                    <h3>Subscribe</h3>
-                                    <span class="animate-border border-black"></span>
-                                </div>
-                                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-                                Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
-                                <form action="#">
-                                    <div class="form-row">
-                                        <div class="col dk-footer-form">
-                                            <input type="email" class="form-control" placeholder="Email Address">
-                                            <button type="submit">
-                                                <i class="fa fa-send"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- End form -->
-                            </div>
-                            <!-- End footer widget -->
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Row -->
+                <div class="col-md-6">
+                  <div class="row">
+                      <!-- End Col -->
+                      <div class="col-12">
+                          <div class="contact-us contact-us-last">
+                              <div class="contact-icon">
+                                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                              </div>
+                              <!-- End contact Icon -->
+                              <div class="contact-info">
+                                  <h3>95 711 9 5353</h3>
+                                  <p class="text-white">Give me a call</p>
+                              </div>
+                              <!-- End Contact Info -->
+                          </div>
+                          <!-- End Contact Us -->
+                      </div>
+                      <!-- End Col -->
+                      <div class="col-12 mb-5">
+                          <div class="footer-widget footer-left-widget p-0">
+                              <div class="section-heading">
+                                  <h3>Useful Links</h3>
+                                  <span class="animate-border border-black"></span>
+                              </div>
+                              <ul>
+                                  <li>
+                                      <a href="#">About us</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Services</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Projects</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Our Team</a>
+                                  </li>
+                              </ul>
+                              <ul>
+                                  <li>
+                                      <a href="#">Contact us</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Blog</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Testimonials</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Faq</a>
+                                  </li>
+                              </ul>
+                          </div>
+                          <!-- End Footer Widget -->
+                      </div>
+                  </div>
                 </div>
+                <div class="col-md-6">
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="contact-us p-0">
+                              <div class="contact-icon">
+                                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                              </div>
+                              <!-- End contact Icon -->
+                              <div class="contact-info">
+                                  <h3>Email</h3>
+                                  <p class="text-white">lucadecesare12@gmail.com</p>
+                              </div>
+                              <!-- End Contact Info -->
+                          </div>
+                          <!-- End Contact Us -->
+                      </div>
+                      
+                      <!-- End col -->
+                      <div class="col-12">
+                          <div class="footer-widget">
+                              <div class="section-heading">
+                                  <h3>Subscribe</h3>
+                                  <span class="animate-border border-black"></span>
+                              </div>
+                              <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                              Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
+                              <form action="#">
+                                  <div class="form-row">
+                                      <div class="col dk-footer-form">
+                                          <input type="email" class="form-control" placeholder="Email Address">
+                                          <button type="submit" class="foot">
+                                              <i class="fas fa-paper-plane foot-colo"></i>
+                                          </button>
+                                      </div>
+                                  </div>
+                              </form>
+                              <!-- End form -->
+                          </div>
+                          <!-- End footer widget -->
+                      </div>
+                      <!-- End Col -->
+                  </div>
+                </div>
+                    <!-- End Contact Row -->
+                    <!-- End Row -->
                 <!-- End Col -->
             </div>
             <!-- End Widget Row -->
         </div>
         <!-- End Contact Container -->
-
-
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <span>Copyright © 2019, All Right Reserved Seobin</span>
-                    </div>
-                    <!-- End Col -->
-                    <div class="col-md-6">
-                        <div class="copyright-menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End col -->
-                </div>
-                <!-- End Row -->
-            </div>
-            <!-- End Copyright Container -->
-        </div>
-        <!-- End Copyright -->
         <!-- Back to top -->
         <div id="back-to-top" class="back-to-top">
             <button @click="topFn"  class="btn btn-dark my my-back" title="Back to Top" style="display: inline-block;">
@@ -172,8 +141,15 @@ export default {
 </script>
 
 <style>
-
- .my-back:hover{
+i.foot-colo{
+  color: #FF2687;
+}
+button.foot{
+  background-color: #2E2E2E !important;
+  border: none !important;
+  height: 54px;
+}
+.my-back:hover{
      background-color:#2e2e2e !important;
  }
 
@@ -186,12 +162,12 @@ p {
     line-height: 28px;
 }
 
-   .animate-border {
+.animate-border {
   position: relative;
   display: block;
   width: 115px;
   height: 3px;
-  background: #007bff; }
+  background: #002687; }
 
 .animate-border:after {
   position: absolute;
@@ -228,8 +204,8 @@ p {
   border-color: #F5B02E; }
 
 .animate-border.border-orange:after {
-  border-right-color: #007bff;
-  border-left-color: #007bff; }
+  border-right-color: #002687;
+  border-left-color: #002687; }
 
 .animate-border.border-ash:after {
   border-right-color: #EEF0EF;
@@ -240,21 +216,6 @@ p {
   border-left-color: #F7F9F8; }
 
 /* Animated heading border */
-@keyframes primary-short {
-  0% {
-    width: 15%; }
-  50% {
-    width: 90%; }
-  100% {
-    width: 10%; } }
-
-@keyframes primary-long {
-  0% {
-    width: 80%; }
-  50% {
-    width: 0%; }
-  100% {
-    width: 80%; } } 
 
 .dk-footer {
   padding: 75px 0 0;
@@ -273,72 +234,9 @@ p {
     font-size: 24px;
     top: -15px;
     position: relative;
-    color:#007bff; }
+    color:#FF2687; }
 
-.dk-footer-box-info {
-  position: absolute;
-  width: 439px;
-  top: -122px;
-  background: #202020;
-  padding: 40px;
-  z-index: 2; }
-  .dk-footer-box-info .footer-social-link h3 {
-    color: #fff;
-    font-size: 24px;
-    margin-bottom: 25px; }
-  .dk-footer-box-info .footer-social-link ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0; }
-  .dk-footer-box-info .footer-social-link li {
-    display: inline-block; }
-  .dk-footer-box-info .footer-social-link a i {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    background: #000;
-    margin-right: 5px;
-    color: #fff; }
-    .dk-footer-box-info .footer-social-link a i.fa-facebook {
-      background-color: #3B5998; }
-    .dk-footer-box-info .footer-social-link a i.fa-twitter {
-      background-color: #55ACEE; }
-    .dk-footer-box-info .footer-social-link a i.fa-google-plus {
-      background-color: #DD4B39; }
-    .dk-footer-box-info .footer-social-link a i.fa-linkedin {
-      background-color: #0976B4; }
-    .dk-footer-box-info .footer-social-link a i.fa-instagram {
-      background-color: #B7242A; }
 
-.footer-awarad {
-  margin-top: 285px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 100%;
-  -moz-box-flex: 0;
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .footer-awarad p {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-left: 20px;
-    padding-top: 15px; }
-
-.footer-info-text {
-  margin: 26px 0 32px; }
 
 .footer-left-widget {
   padding-left: 80px; }
@@ -443,27 +341,6 @@ p {
     color: #fff;
     margin-bottom: 0; }
 
-.copyright {
-  padding: 28px 0;
-  margin-top: 55px;
-  background-color: #202020; }
-  .copyright span,
-  .copyright a {
-    color: #878787;
-    -webkit-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
-  .copyright a:hover {
-    color:#007bff; }
-
-.copyright-menu ul {
-  text-align: right;
-  margin: 0; }
-
-.copyright-menu li {
-  display: inline-block;
-  padding-left: 20px; }
-
 .back-to-top {
   position: relative;
   z-index: 2; }
@@ -486,7 +363,6 @@ p {
       cursor: pointer;
       background: #FA6742;
       border-color: #FA6742; }
-      
-  /* Credit to https://bootsnipp.com/snippets/ooa9M  */    
 
+  /* Credit to https://bootsnipp.com/snippets/ooa9M  */    
 </style>
