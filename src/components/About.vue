@@ -1,75 +1,101 @@
 <template>
  <section id="about">
      <h1 class="text-center about-title py-3">About me</h1>
-     <div class="section_our_solution py-5">
-        <div class="row width">
-            <div class="our_solution_category">
-                <div class="solution_cards_box">
-                <div class="solution_card">
-                    <div class="hover_color_bubble"></div>
-                    <div class="so_top_icon">
-                    
+     <div class="section_our_solution py-5 d-flex justify-content-center">
+        <div class="row width justify-content-around">
+                <div class="solution_cards_box d-flex justify-content-center">
+                  <div class="row justify-content-around">
+                    <div class="col-12 col-lg-3 py-5">
+                      <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="so_top_icon">
+                          
+                          </div>
+                          <div class="solu_title">
+                          <h3>Demo 1</h3>
+                          </div>
+                          <div class="solu_description">
+                          <p>
+                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                          </p>
+                          <button type="button" class="read_more_btn">Read More</button>
+                          </div>
+                      </div>
                     </div>
-                    <div class="solu_title">
-                    <h3>Demo 1</h3>
+                    <div class="col-12 col-lg-3 d-flex align-items-center">
+                      <div class="astrodivider">
+                      <div class="astrodividermask"></div>
+                      <span>
+                        <i>&#10038;</i>
+                      </span>
                     </div>
-                    <div class="solu_description">
-                    <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    </p>
-                    <button type="button" class="read_more_btn">Read More</button>
                     </div>
-                </div>
-                <div class="solution_card">
-                    <div class="hover_color_bubble"></div>
-                    <div class="so_top_icon">
+                    <div class="col-12 col-lg-3 py-5">
+                      <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="so_top_icon">
+                          </div>
+                          <div class="solu_title">
+                          <h3>Demo 2</h3>
+                          </div>
+                          <div class="solu_description">
+                          <p>
+                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                          </p>
+                          <button type="button" class="read_more_btn">Read More</button>
+                          </div>
+                      </div>
                     </div>
-                    <div class="solu_title">
-                    <h3>Demo 2</h3>
-                    </div>
-                    <div class="solu_description">
-                    <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    </p>
-                    <button type="button" class="read_more_btn">Read More</button>
-                    </div>
-                </div>
+                  </div>
                 </div>
                 <!--  -->
-                <div class="solution_cards_box sol_card_top_3">
-                <div class="solution_card">
-                    <div class="hover_color_bubble"></div>
-                    <div class="so_top_icon">
-                    
+                <div class="solution_cards_box d-flex justify-content-center">
+                  <div class="row justify-content-around">
+                    <div class="col-12 col-lg-3 py-5">
+                      <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="so_top_icon">
+                          
+                          </div>
+                          <div class="solu_title">
+                          <h3>Demo 3</h3>
+                          </div>
+                          <div class="solu_description">
+                          <p>
+                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                          </p>
+                          <button type="button" class="read_more_btn">Read More</button>
+                          </div>
+                      </div>
                     </div>
-                    <div class="solu_title">
-                    <h3>Demo 3</h3>
+                    <div class="col-12 col-lg-3 d-flex align-items-center">
+                      <div class="astrodivider">
+                      <div class="astrodividermask"></div>
+                      <span>
+                        <i>&#10038;</i>
+                      </span>
                     </div>
-                    <div class="solu_description">
-                    <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    </p>
-                    <button type="button" class="read_more_btn">Read More</button>
                     </div>
-                </div>
-                <div class="solution_card">
-                    <div class="hover_color_bubble"></div>
-                    <div class="so_top_icon">
-                    
+                    <div class="col-12 col-lg-3 py-5">
+                      <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="so_top_icon">
+                          
+                          </div>
+                          <div class="solu_title">
+                          <h3>Demo 4</h3>
+                          </div>
+                          <div class="solu_description">
+                          <p>
+                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                          </p>
+                          <button type="button" class="read_more_btn">Read More</button>
+                          </div>
+                      </div>
                     </div>
-                    <div class="solu_title">
-                    <h3>Demo 4</h3>
-                    </div>
-                    <div class="solu_description">
-                    <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    </p>
-                    <button type="button" class="read_more_btn">Read More</button>
-                    </div>
-                </div>
+                  </div>
                 </div>
             </div>
-        </div>
     </div>
  </section>
 </template>
@@ -81,6 +107,54 @@ export default {
 </script>
 
 <style>
+/* DIVIDER */
+.astrodivider {
+  margin: 64px auto;
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px #FF2687;
+}
+.astrodivider span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -25px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #FF2687;
+  background: #fff;
+}
+.astrodivider i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #002687;
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: #002687;
+}
+/*  */
 div.row{
     width: 100%;
 }
@@ -98,22 +172,8 @@ h1.about-title{
 h1.about-title:hover{
     background-size: 80%;
 }
-.section_our_solution .row {
-  align-items: center;
-}
 
-.our_solution_category {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.our_solution_category .solution_cards_box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .solution_cards_box .solution_card {
-  flex: 0 50%;
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
     0 5px 15px 0 rgba(37, 44, 97, 0.15);

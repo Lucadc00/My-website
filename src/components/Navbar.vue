@@ -6,46 +6,45 @@
             </button>
             <div class="collapse navbar-collapse justify-content-around text-center" id="navbarSupportedContent">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link active my-color mx text-start" aria-current="page" href="#projects">Projects</a>
+                    <a class="nav-link active my-color mx" :class="[center ? 'text-start' : 'text-center']" aria-current="page" href="#projects">Projects</a>
                 </div>
                 <hr class="m-0 color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link active my-color mx text-start" aria-current="page" href="#about">About me</a>
+                    <a class="nav-link active my-color mx" :class="[center ? 'text-start' : 'text-center']" aria-current="page" href="#about">About me</a>
                 </div>
                 <hr class="m-0 color">
                 <div class="col-4 fw-bold nav-item">
-                    <a class="nav-link my-color mx wdt text-start" href="#dk-footer">Contact me</a>
+                    <a class="nav-link my-color mx wdt" :class="[center ? 'text-start' : 'text-center']" href="#dk-footer">Contact me</a>
                 </div>
-                <!-- <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    
-                    </li>
-                    <li class="nav-item">
-                   
-                    </li>
-                    <li class="nav-item">
-                    
-                    </li>
-                </ul> -->
             </div>
         </div>
     </nav>
 </template>
 
 <script>
+import { computed } from '@vue/runtime-core';
 export default {
     data(){
         return{
             active: false,
+            center: false,
         }
     },
     methods: {
         changeIcon(){
             this.active = !this.active
-            console.log(this.active);
-        }
-    }
-
+        },
+        myEventHandler(){
+            if (window.innerWidth <= 992) return this.center = true
+            this.center = false
+        },
+    },
+    created() {
+        window.addEventListener("resize", this.myEventHandler);
+    },
+    destroyed() {
+        window.removeEventListener("resize", this.myEventHandler);
+    },
 }
 </script>
 
