@@ -1,12 +1,12 @@
 <template>
- <section id="about">
+ <section id="about" :class="[showA ? 'showAb' : 'hideAb']">
      <h1 class="text-center about-title py-3">About me</h1>
      <div class="section_our_solution py-5 d-flex justify-content-center">
         <div class="row width justify-content-around">
                 <div class="solution_cards_box d-flex justify-content-center">
                   <div class="row justify-content-around">
-                    <div class="col-12 col-lg-3 py-5">
-                      <div class="solution_card">
+                    <div class="col-12 col-lg-3 py-5 ">
+                      <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
                           
@@ -31,7 +31,7 @@
                     </div>
                     </div>
                     <div class="col-12 col-lg-3 py-5">
-                      <div class="solution_card">
+                      <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
                           </div>
@@ -52,7 +52,7 @@
                 <div class="solution_cards_box d-flex justify-content-center">
                   <div class="row justify-content-around">
                     <div class="col-12 col-lg-3 py-5">
-                      <div class="solution_card">
+                      <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
                           
@@ -77,7 +77,7 @@
                     </div>
                     </div>
                     <div class="col-12 col-lg-3 py-5">
-                      <div class="solution_card">
+                      <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
                           
@@ -102,11 +102,39 @@
 
 <script>
 export default {
-
+  data(){
+		return{
+			showA : false,
+		}
+	},
+	methods: {
+        myScrollAbout(){
+          console.log(window.scrollY);
+        	if(window.scrollY >= 800){
+				this.showA = true
+			}
+			else{
+				this.showA = false
+			}
+        },
+    },
+    created() {
+        window.addEventListener("scroll", this.myScrollAbout);
+    },
+    destroyed() {
+        window.removeEventListener("scroll", this.myScrollAbout);
+    },
 }
 </script>
 
 <style>
+.showAb{
+	transition: all 1s;
+}
+.hideAb{
+	transition: all 1s;
+	opacity: 0;
+}
 /* DIVIDER */
 .astrodivider {
   margin: 64px auto;

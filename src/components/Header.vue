@@ -24,6 +24,7 @@ export default {
 
 <style>
     /* reset */
+
 *,
 *::before,
 *::after {
@@ -120,7 +121,8 @@ p {
     margin: 0px !important;
 }
 .my-back{
-    background-color: black;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.548)), url('../../public/img/Header.png');
+    background-size: cover;
     color: #FF2687;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
 
-<footer id="dk-footer" class="dk-footer mt-5">
+<footer id="dk-footer" class="dk-footer mt-5" :class="[showF ? 'showFo' : 'hideFo']">
         <div class="container">
             <div class="row">
                 <!-- End Col -->
@@ -128,19 +128,41 @@
 export default {
     data(){
         return{
-            
+            showF : false,
         }
     },
     methods:{
         topFn(){
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-    }
+        },
+        myScrollFooter(){
+          console.log(window.scrollY);
+        	if(window.scrollY >= 1650){
+				this.showF = true
+			}
+			else{
+				this.showF = false
+			}
+        },
+    },
+    created() {
+        window.addEventListener("scroll", this.myScrollFooter);
+    },
+    destroyed() {
+        window.removeEventListener("scroll", this.myScrollFooter);
+    },
 }
 </script>
 
 <style>
+.showFo{
+	transition: all 1s;
+}
+.hideFo{
+	transition: all 1s;
+	opacity: 0;
+}
 i.foot-colo{
   color: #FF2687;
 }

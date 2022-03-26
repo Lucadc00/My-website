@@ -1,74 +1,14 @@
 <template>
 <h1 class="proje-title text-center py-3 my-0 ">My projects</h1>
-<div class="container py-5 d-flex justify-content-center" id="projects">
+<div :class="[showP ? 'showPr' : 'hidePr']" class="container py-5 d-flex justify-content-center" id="projects">
 	<div class="row">
-		<div class="col-md-4">
-			<div class="profile-card-4 text-center"><img src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive">
+		<div class="col-md-4 " v-for="project in projects" :key="project.name">
+			<div class="profile-card-4 text-center pr-shadow"><img src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive">
 				<div class="profile-content">
-					<div class="profile-name">John Doe
+					<div class="profile-name">{{project.name}}
 						<p>@johndoedesigner</p>
 					</div>
-					<div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
-					<div class="row">
-						<div class="col-12 col-sm-4">
-							<div class="profile-overview">
-								<p>TWEETS</p>
-								<h4>1300</h4>
-							</div>
-						</div>
-						<div class="col-12 col-sm-4">
-							<div class="profile-overview">
-								<p>FOLLOWERS</p>
-								<h4>250</h4>
-							</div>
-						</div>
-						<div class="col-12 col-sm-4">
-							<div class="profile-overview">
-								<p>FOLLOWING</p>
-								<h4>168</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="profile-card-4 text-center"><img src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive">
-				<div class="profile-content">
-					<div class="profile-name">John Doe
-						<p>@johndoedesigner</p>
-					</div>
-					<div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
-					<div class="row">
-						<div class="col-12 col-sm-4">
-							<div class="profile-overview">
-								<p>TWEETS</p>
-								<h4>1300</h4>
-							</div>
-						</div>
-						<div class="col-12 col-sm-4">
-							<div class="profile-overview">
-								<p>FOLLOWERS</p>
-								<h4>250</h4>
-							</div>
-						</div>
-						<div class="col-12 col-sm-4">
-							<div class="profile-overview">
-								<p>FOLLOWING</p>
-								<h4>168</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="profile-card-4 text-center"><img src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive">
-				<div class="profile-content">
-					<div class="profile-name">John Doe
-						<p>@johndoedesigner</p>
-					</div>
-					<div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+					<div class="profile-description">{{project.description}}</div>
 					<div class="row">
 						<div class="col-12 col-sm-4">
 							<div class="profile-overview">
@@ -98,12 +38,48 @@
 
 <script>
 export default {
+	data(){
+		return{
+			projects : [
+				{name:'Questo sito', description:'Questo sito è stato costruito con vue 3'},
+				{name:'Progetti lars', description:'progetti lara'},
+				{name:'progetti semplici', description:'descrizione progetti semplici'}
+			],
+			showP : false,
+		}
+	},
+	methods: {
+        
+        myScroll(){
+        	if(window.scrollY >= 150){
+				this.showP = true
+			}
+			else{
+				this.showP = false
+			}
+        },
+    },
+    created() {
+        window.addEventListener("scroll", this.myScroll);
+    },
+    destroyed() {
+        window.removeEventListener("scroll", this.myScroll);
+    },
 
 }
 </script>
 
 <style>
-
+.pr-shadow{
+box-shadow: 10px 15px 25px -8px #FF2687 !important;
+}
+.showPr{
+	transition: all 1s;
+}
+.hidePr{
+	transition: all 1s;
+	opacity: 0;
+}
 .proje-title{
     
     background-color: #FF2687;
