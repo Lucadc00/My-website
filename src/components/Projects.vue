@@ -1,31 +1,33 @@
 <template>
-<h1 class="proje-title text-center py-3 my-0 ">My projects</h1>
-<div :class="[showP ? 'showPr' : 'hidePr']" class="container py-5 d-flex justify-content-center" id="projects">
+<h1 id="projects" class="proje-title text-center py-3 my-0 ">My projects</h1>
+<div :class="[showP ? 'showPr' : 'hidePr']" class="container py-5 d-flex justify-content-center">
 	<div class="row">
 		<div class="col-md-4 " v-for="project in projects" :key="project.name">
-			<div class="profile-card-4 text-center pr-shadow"><img src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive">
-				<div class="profile-content">
-					<div class="profile-name">{{project.name}}
-						<p>@johndoedesigner</p>
+			<div class="profile-card-4 text-center pr-shadow"><img :src="project.img" class="img img-responsive" width="300" height="200">
+				<div class="profile-content pt-5">
+					<div class="profile-name">
+						{{project.name}}
 					</div>
 					<div class="profile-description">{{project.description}}</div>
 					<div class="row">
-						<div class="col-12 col-sm-4">
+						<div class="col-12 col-sm-4 d-flex align-items-center justify-content-center">
 							<div class="profile-overview">
-								<p>TWEETS</p>
-								<h4>1300</h4>
+								<h4>More</h4>
+								<a href="">
+									<i class="fa-solid fa-circle-info project-icons pt-2"></i>
+								</a>
 							</div>
 						</div>
 						<div class="col-12 col-sm-4">
 							<div class="profile-overview">
-								<p>FOLLOWERS</p>
-								<h4>250</h4>
 							</div>
 						</div>
 						<div class="col-12 col-sm-4">
 							<div class="profile-overview">
-								<p>FOLLOWING</p>
-								<h4>168</h4>
+								<h4>Github</h4>
+								<a :href="project.git">
+									<i class="fa-brands fa-github project-icons pt-2"></i>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -41,9 +43,9 @@ export default {
 	data(){
 		return{
 			projects : [
-				{name:'Questo sito', description:'Questo sito è stato costruito con vue 3'},
-				{name:'Progetti lars', description:'progetti lara'},
-				{name:'progetti semplici', description:'descrizione progetti semplici'}
+				{id: 1,name:'This web site', description:'Questo sito è stato costruito con vue 3', img:'../../img/vue.jpeg', git:'https://github.com/Lucadc00/My-website'},
+				{id:2, name:'Laravel', description:'progetti lara', img:'../../img/laravel.png', git:''},
+				{id:3, name:'Plain html and js', description:'descrizione progetti semplici',img:'../../img/plain.jpeg', git:''}
 			],
 			showP : false,
 		}
@@ -70,6 +72,16 @@ export default {
 </script>
 
 <style>
+.project-icons{
+	color: #002687;
+	font-size: 30px;
+	transition: all 0.5s;
+}
+.project-icons:hover{
+	transition: all 0.5;
+	transform: scale(1.3);
+	color: #000987;
+}
 .pr-shadow{
 box-shadow: 10px 15px 25px -8px #FF2687 !important;
 }
@@ -129,8 +141,8 @@ box-shadow: 10px 15px 25px -8px #FF2687 !important;
 	position: absolute;
 	left: 0px;
 	right: 0px;
-	top: -70px;
-	color: #fff;
+	top: 5px;
+	color: black;
 	font-size: 17px;
 }
 
@@ -151,8 +163,8 @@ box-shadow: 10px 15px 25px -8px #FF2687 !important;
 }
 
 .profile-card-4 .profile-overview p {
-	font-size: 10px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: bolder;
 	color: #777;
 }
 

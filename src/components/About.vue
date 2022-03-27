@@ -9,16 +9,16 @@
                       <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
-                          
+                            <i class="fa-solid fa-graduation-cap fs-3"></i>
                           </div>
                           <div class="solu_title">
-                          <h3>Demo 1</h3>
+                          <h3>My education</h3>
                           </div>
                           <div class="solu_description">
                           <p>
-                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                              I graduated from the scientific high school Margherita Hack in Morlupo (Rm), during these years I have mainly deepened the scientific subjects acquiring good problem solving skills.
                           </p>
-                          <button type="button" class="read_more_btn">Read More</button>
+                          <!-- <button type="button" class="read_more_btn">Read More</button> -->
                           </div>
                       </div>
                     </div>
@@ -34,15 +34,15 @@
                       <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
+                            <i class="fa-solid fa-code fs-3"></i>
                           </div>
                           <div class="solu_title">
-                          <h3>Demo 2</h3>
+                          <h3>My coding expirience</h3>
                           </div>
                           <div class="solu_description">
                           <p>
-                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                              My career as a programmer started at the end of 2021. I took an online programming course from aulab. I have acquired knowledge of front and back end programming.
                           </p>
-                          <button type="button" class="read_more_btn">Read More</button>
                           </div>
                       </div>
                     </div>
@@ -55,16 +55,15 @@
                       <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
-                          
+                            <i class="fa-solid fa-user fs-3"></i>
                           </div>
                           <div class="solu_title">
-                          <h3>Demo 3</h3>
+                          <h3>About me</h3>
                           </div>
                           <div class="solu_description">
                           <p>
-                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                              I was born in Italy on 08/28/2000. After high school I decided to learn programming because I love to invent and solve problems. I have now moved to cork to have an exciting new adventure.
                           </p>
-                          <button type="button" class="read_more_btn">Read More</button>
                           </div>
                       </div>
                     </div>
@@ -80,16 +79,15 @@
                       <div class="solution_card pr-shadow">
                           <div class="hover_color_bubble"></div>
                           <div class="so_top_icon">
-                          
+                            <i class="fa-solid fa-music fs-3"></i>
                           </div>
                           <div class="solu_title">
-                          <h3>Demo 4</h3>
+                          <h3>My hobbies</h3>
                           </div>
                           <div class="solu_description">
                           <p>
-                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                              I have been playing the violin for 5 years, I love music because it helps me in all the good and bad times. I like playing sudoku chess and all games that have problems to solve or strategies to implement.
                           </p>
-                          <button type="button" class="read_more_btn">Read More</button>
                           </div>
                       </div>
                     </div>
@@ -109,8 +107,7 @@ export default {
 	},
 	methods: {
         myScrollAbout(){
-          console.log(window.scrollY);
-        	if(window.scrollY >= 800){
+        	if(window.scrollY >= 750){
 				this.showA = true
 			}
 			else{
@@ -216,7 +213,7 @@ h1.about-title:hover{
 }
 
 .solution_cards_box .solution_card:hover {
-  background: #309df0;
+  background: #002687;
   color: #fff;
   transform: scale(1.1);
   z-index: 9;
@@ -246,7 +243,7 @@ h1.about-title:hover{
 
 .solution_cards_box .solution_card:hover .solu_description button {
   background: #fff !important;
-  color: #309df0;
+  color: #002687;
 }
 
 .solution_card .solu_title h3 {
@@ -264,12 +261,7 @@ h1.about-title:hover{
 .solution_card .solu_description button {
   border: 0;
   border-radius: 15px;
-  background: linear-gradient(
-    140deg,
-    #42c3ca 0%,
-    #42c3ca 50%,
-    #42c3cac7 75%
-  ) !important;
+  background: #002687;
   color: #fff;
   font-weight: 500;
   font-size: 1rem;
@@ -305,6 +297,7 @@ h1.about-title:hover{
   height: 60px;
   border-radius: 50%;
   background: #fff;
+  color: black;
   overflow: hidden;
   display: flex;
   align-items: center;

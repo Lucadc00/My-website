@@ -111,14 +111,14 @@
             <!-- End Widget Row -->
         </div>
         <!-- End Contact Container -->
-        <!-- Back to top -->
-        <div id="back-to-top" class="back-to-top">
-            <button @click="topFn"  class="btn btn-dark my my-back" title="Back to Top" style="display: inline-block;">
-                <i class="fa fa-angle-up" ></i>
-            </button>
-        </div>
-        <!-- End Back to top -->
 </footer>
+        <!-- Back to top -->
+  <div id="back-to-top" class="back-to-top">
+      <button @click="topFn"  class="btn btn-dark my my-back" title="Back to Top" style="display: inline-block;">
+          <i class="fa fa-angle-up" ></i>
+      </button>
+  </div>
+  <!-- End Back to top -->
 
 
 <!-- Credit to https://bootsnipp.com/snippets/ooa9M -->
@@ -137,8 +137,7 @@ export default {
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         },
         myScrollFooter(){
-          console.log(window.scrollY);
-        	if(window.scrollY >= 1650){
+        	if(window.scrollY >= 1600){
 				this.showF = true
 			}
 			else{
