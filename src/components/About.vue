@@ -62,7 +62,7 @@
                           </div>
                           <div class="solu_description">
                           <p>
-                              I was born in Italy on 08/28/2000. After high school I decided to learn programming because I love to invent and solve problems. I have now moved to cork to have an exciting new adventure.
+                              I was born in Italy on 08/28/2000.After high school I decided to learn to code because I love to create contents and solve problems.I've now moved to Cork to have an exciting new adventure.
                           </p>
                           </div>
                       </div>
@@ -86,7 +86,7 @@
                           </div>
                           <div class="solu_description">
                           <p>
-                              I have been playing the violin for 5 years, I love music because it helps me in all the good and bad times. I like playing sudoku chess and all games that have problems to solve or strategies to implement.
+                              I have been playing the violin for 5 years, I love music because it helps me in all moods. I like playing sudoku chess and all games that have problems to solve or strategies to implement.
                           </p>
                           </div>
                       </div>

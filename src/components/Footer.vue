@@ -15,7 +15,7 @@
                               <!-- End contact Icon -->
                               <div class="contact-info">
                                   <h3>Give me a call</h3>
-                                  <p class="text-white">95 711 9 5353</p>
+                                  <p class="text-white">+353 83 204 8914</p>
                               </div>
                               <!-- End Contact Info -->
                           </div>

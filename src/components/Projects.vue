@@ -3,7 +3,7 @@
 <div :class="[showP ? 'showPr' : 'hidePr']" class="container py-5 d-flex justify-content-center">
 	<div class="row">
 		<div class="col-md-4 " v-for="project in projects" :key="project.name">
-			<div class="profile-card-4 text-center pr-shadow"><img :src="project.img" class="img img-responsive" width="300" height="200">
+			<div class="profile-card-4 text-center pr-shadow"><img :src="project.img" class="img img-responsive" width="300" height="200" :alt="project.name">
 				<div class="profile-content pt-5">
 					<div class="profile-name">
 						{{project.name}}
@@ -43,9 +43,9 @@ export default {
 	data(){
 		return{
 			projects : [
-				{id: 1,name:'This web site', description:'Questo sito è stato costruito con vue 3', img:'../../img/vue.jpeg', git:'https://github.com/Lucadc00/My-website'},
-				{id:2, name:'Laravel', description:'progetti lara', img:'../../img/laravel.png', git:''},
-				{id:3, name:'Plain html and js', description:'descrizione progetti semplici',img:'../../img/plain.jpeg', git:''}
+				{id: 1,name:'This web site', description:'Questo sito è stato costruito con vue 3', img:'img/vue.jpeg', git:'https://github.com/Lucadc00/My-website'},
+				{id:2, name:'Laravel', description:'progetti lara', img:'img/laravel.png', git:''},
+				{id:3, name:'Plain html and js', description:'descrizione progetti semplici',img:'img/plain.jpeg', git:''}
 			],
 			showP : false,
 		}
