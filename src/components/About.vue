@@ -37,7 +37,7 @@
                             <i class="fa-solid fa-code fs-3"></i>
                           </div>
                           <div class="solu_title">
-                          <h3>My coding expirience</h3>
+                          <h3>My coding experience</h3>
                           </div>
                           <div class="solu_description">
                           <p>

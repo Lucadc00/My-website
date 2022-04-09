@@ -9,9 +9,10 @@
                 </h1>
               </div>
               <div class="col-6">
-                  <h2>Full-stack web developer fond of vue !Work in progres!</h2>
-                  <a href="file/resume.pdf" download=""><button class="btn head-btn mt-3">My resume </button></a>
-                  <a href="file/aulab.pdf" download=""><button button class="btn head-btn ms-5 mt-3">Aulab certification</button></a>
+                  <h2>Full-stack web developer fond of vue </h2>
+                  <h2>!Work in progres!</h2>
+                  <a href="file/resume.pdf" download=""><button class="btn head-btn mt-3 me-5 ">My resume </button></a>
+                  <a href="file/aulab.pdf" download=""><button button class="btn head-btn mt-3">Aulab certification</button></a>
               </div>
           </div>
       </div>
